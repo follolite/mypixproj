@@ -15,5 +15,5 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-##Link To My project
-To view the live page of this pixel art mark, click [here](https://follolite.github.io/mypixproj/)
+## Link to my projet 
+To view my  pixel art mark project please, click [here](https://follolite.github.io/mypixproj/)
