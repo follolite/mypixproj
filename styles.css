@@ -1,18 +1,18 @@
 body {
     
-    background-color: lightblue;
+    background-color: blue;
     text-align: center;
 }
 
 h1 {
-    color: blue;
+    color: yellow;
     font-family:Nosifer;
     font-size: 70px;
     margin: 0.2em;
 }
 
 h2 {
-    color: blue;
+    color: white;
     font-family:Nosifer;
     margin: 1em 0 0.25em;
 }
@@ -46,6 +46,19 @@ input[type=number] {
     
 }
 
+#button {
+    background-color: yellow;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
 
         
     );
