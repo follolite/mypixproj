@@ -47,9 +47,9 @@ input[type=number] {
 }
 
 #button {
-    background-color: yellow;
+    background-color:black;
     border: none;
-    color: black;
+    color: white;
     padding: 20px;
     text-align: center;
     text-decoration: none;
