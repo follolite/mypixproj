@@ -1,14 +1,16 @@
 body {
-    
+    background-image: url("bg.jpg");
     background-color: lightblue;
     text-align: center;
+    
 }
 
 h1 {
     color: black;
     font-family:Nosifer;
     font-size: 70px;
-    margin: 0.2em;
+    margin: 2em;
+    top: 70px;
 }
 
 h2 {
@@ -26,8 +28,11 @@ table, tr, td {
 }
 
 table {
-    border-collapse: collapse;
-    margin: 0 auto;
+     position: relative;
+    left: 650px;
+    border: 3px solid blue;
+
+    
 }
 
 tr {
@@ -67,16 +72,47 @@ section {
     background: white;
     border-radius: 15px;
     width: 350px;
-    margin: 40px auto;
-    padding: 40px 0;
+    margin: 80px auto;
+    padding: 70px 0;
     
     
-    height: 250px;
+    height: 200px;
+    position: absolute;
 
    
 }
 
-        
+
+
+.typewriter h1 {
+  color: black;
+  font-family: Nosifer;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    animation-iteration-count:infinite;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: lightblue }
+}
+     
+
+
     );
 
 
