@@ -28,8 +28,9 @@ table, tr, td {
 }
 
 table {
-     position: relative;
-    left: 650px;
+    border-collapse: collapse;
+    position: absolute;
+    margin-left: 600px
     
     
 }
