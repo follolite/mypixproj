@@ -37,12 +37,12 @@ table {
 
 tr {
     background-color: white;
-    height: 20px;
+    height: 10px;
     
 }
 
 td {
-    width: 20px;
+    width: 10px;
     cursor: pointer;
 }
 
